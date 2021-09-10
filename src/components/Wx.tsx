@@ -52,8 +52,8 @@ export default class Wx extends Component <{}, WxState> {
             .then(data => {
                 console.log(data);
                 this.setState({
-                    temperature: (data.current.temp),
-                    feelsLike: (data.current.feels_like)
+                    temperature: (data.main.temp),
+                    feelsLike: (data.main.feels_like)
                 });
             })
             .catch(err => console.log(err));

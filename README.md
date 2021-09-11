@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# TypeScript with React Legacy Fetch Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### _for [EFA's](https://elevenfifty.org/) Red Badge course_
+
+### Challenge Requirements
+*  This challenge must use TypeScript
+*  Create a class component and a functional component
+*  The class component should reach out to the [Geolocation API](https://elevenfifty.org/) to grab your coordinates.
+*  Using those coordinates, reach out to the [Open Weather API](https://elevenfifty.org/) and retrieve the weather information for your area
+*  Once you have the weather, it should be sent to the functional component to be displayed
+
+
+
+
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
